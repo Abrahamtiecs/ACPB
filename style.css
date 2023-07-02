@@ -19,6 +19,7 @@ body{
     background-color: white;
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
     border-radius: 20px;
     font-family: 'Geologica', sans-serif;
     justify-content: center;
@@ -296,6 +297,7 @@ h1{
     width: 100%;
 }
 .finalplus{
+    flex-wrap: wrap;
     font-family: 'Geologica', sans-serif;
     margin-left: 20px;
     padding: 10px;
@@ -315,9 +317,11 @@ h1{
     padding-right: 10px;
     height: 400px;
     width: 400px;
+    flex-wrap: wrap;
 }
 .finalplus button{
     width: 100%;
+    flex-wrap: wrap;
     cursor: pointer;
     font-family: 'Geologica', sans-serif;
     border-radius: 10px;

@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="app.js"></script>
+    <script src="newsletter.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -66,7 +67,7 @@
                 <button>Voir plus</button>
             </div>
             <div class="blue" onclick="self.location.href='escae.html'">
-                <img src="logos inphb/escae.jpg" alt="escae">
+                <img src="logos inphb/escae.png" alt="escae">
                 <p>ECOLE SUPERIEURE DE COMMERCE ET D'ADMINISTRATION</p>
                 <button >Voir plus</button>
             </div>
@@ -113,7 +114,7 @@
     <div class="hero">
         <h1><span class="icon"><i class="fa-solid fa-eye"></i></span> Focus</h1>
     </div>
-    <div class="pro"  onclick="self.location.href='focus.html'">
+    <div class="hero"  onclick="self.location.href='focus.html'">
         <img src="img/offshore.png" alt="offshore" srcset="">
         <div class="open">
             <h2>ACCEDEZ AU MONDE DU PETROLE ET DE L’ENERGIE</h2>
@@ -133,8 +134,8 @@
         <h2>Abonnez vous à la newsletter ! <span class="icon"><i class="fa-sharp fa-solid fa-typewriter"></i></span></h2>
         <div class="xcontainer">
           <form class="search-form">
-            <label for="email"></label><p>Email</p><input type="email" placeholder="Ex: prenom.nom@inphb.ci">
-            <button title="search-form" onclick="self.location.href='work.html'" class="circle-button" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+            <label for="email"></label><p>Email</p><input id="email-input" type="email" placeholder="Ex: prenom.nom@inphb.ci">
+            <button type="submit" title="search-form" onclick="self.location.href='work.html'" class="circle-button" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
           </form>
         </div>
     </section>
@@ -161,10 +162,11 @@
                     <li><span class="icon"><i class="fa-regular fa-envelope"></i></span><a href="work.html">Email</a></li>
                 </ul>
                 <ul>
-                    <a href="esa.html"><img src="logos inphb/esa.png" alt="esa"></a> <a href="#"><img src="logos inphb/esmg.png" alt="esmg"> </a>
-                    <a href="esi.html"><img src="logos inphb/esi.png" alt="esi"></a>
-                    <a href="escae.html"><img src="logos inphb/escae.jpg" alt="escae"></a> 
-                    <a href="espe.html"><img src="logos inphb/ESPE.png" alt="ESPE"></a>
+                    <a href="esa.html"><img src="logos inphb/esa.png" alt="esa"></a>
+                    <a href="esmg.html"><img src="logos inphb/esmg.png" alt="esmg"> </a>
+                   <a href="esi.html"><img src="logos inphb/esi.png" alt="esi"></a>
+                   <a href="escae.html"><img src="logos inphb/escae.png" alt="escae"></a> 
+                   <a href="espe.html"><img src="logos inphb/ESPE.png" alt="espe"></a>
                 </ul>
             </nav>
         </div>

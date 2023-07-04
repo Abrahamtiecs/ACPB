@@ -2,7 +2,7 @@ body{
     background-color: whitesmoke;
 }
 .main{
-    padding-top: 50px;
+    padding-top: 100px;
     
 }
 
@@ -13,7 +13,9 @@ body{
     flex-direction: column;
 }
  
-
+a[type="visit"]:hover{
+    color: #0a9c67;
+}
 
 .container{
     background-color: white;
@@ -27,8 +29,6 @@ body{
     top: 0;
     left: 0;
     align-items: center;
-    margin-top: 5px;
-    padding-top: 5px;
 }
 
 span{
@@ -39,9 +39,7 @@ img{
     width: 40px;
     padding: 10px;
 }
-header{
-    padding-top: 5px;
-}
+
 header nav ul{
     justify-content: flex-end;
    
@@ -52,6 +50,7 @@ header nav ul li {
     padding-right: 5px;
     text-decoration: none;
     color: #000;
+    padding-right: 10px;
     
 }
 h2{
@@ -147,7 +146,24 @@ h1{
     margin-top: auto;
     font-size: medium;
 }
+.hero button{
+    width: 50%;
+    cursor: pointer;
+    font-family: 'Geologica', sans-serif;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    padding: 5px;
+    font-size: medium;
+    margin-top: 10px;
+}
 
+.hero button:hover{
+    background: linear-gradient(to bottom right, #00da49, #18d697);
+    color: white;
+}
 .pbox button{
     width: 100%;
     cursor: pointer;
@@ -252,7 +268,7 @@ h1{
 }
 
 .largeplus button{
-    width: 500px;
+    width: 50%;
     cursor: pointer;
     font-family: 'Geologica', sans-serif;
     border-radius: 20px;
@@ -293,34 +309,39 @@ h1{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: xx-large;
+    font-size: x-large;
     width: 100%;
+    flex-wrap: wrap;
+    min-width: 800px;
+    min-height: 800px;
 }
 .finalplus{
-    flex-wrap: wrap;
     font-family: 'Geologica', sans-serif;
-    margin-left: 20px;
     padding: 10px;
-    margin-top: 20px;
-    flex-wrap: wrap;
+    margin: 10px;
     background-color: white;
     border-radius: 20px;
+    text-align: center;
+    background-color: white;
     display: flex;
-    width: 950px;
-    
+    flex-direction: column;
     margin-bottom: 30px;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
     font-size: larger;
 }
+
+.finalplus p{
+    text-align: start;
+}
+
 .finalplus img{
-    padding-right: 10px;
-    height: 400px;
-    width: 400px;
-    flex-wrap: wrap;
+    width: 90%;
+    height: 20%;
+    border-radius: 10px;
+    padding: 10px;
 }
 .finalplus button{
-    width: 100%;
+    width: 50%;
     flex-wrap: wrap;
     cursor: pointer;
     font-family: 'Geologica', sans-serif;
@@ -328,7 +349,6 @@ h1{
     text-align: center;
     height: 50px;
     padding: 5px;
-    
     font-size: medium;
     margin-top: auto;
     
@@ -365,6 +385,10 @@ h1{
     margin-top: auto;
     
 }
+.finalplus button[type="bleu"]{
+    background: linear-gradient(to bottom right, #0007da, hsl(311, 60%, 75%));
+}
+
 
 .finalplus button[type="vert"]{
     background: linear-gradient(to bottom right, #0bda00, #12da16);
@@ -382,6 +406,8 @@ q{
 .final img{
     height: 800px;
     width: 800px;
+    min-height: 300px;
+    max-width: 300px;
 }
 .gradient-section {
     margin: 10px;
@@ -397,14 +423,15 @@ q{
 }
   
 .xcontainer {
-    
+    flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
 }
 .xcontainerx {
-    
-    width: 800px;
-    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
 } 
 .search-form {
     display: flex;
@@ -484,9 +511,11 @@ footer nav ul li{
     color: white;
     padding-top: 10px;
 }
+
 footer nav ul li a:hover{
     color: black;
 }
+
 footer nav ul li a{
     text-decoration: none;
     color: white;
@@ -496,20 +525,32 @@ footer nav ul li a{
     font-family: 'Geologica', sans-serif;
     margin: 10px;
     padding: 10px;
-    flex-direction: column;
     background-color: white;
     border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: x-large;
-}
-.pro img{
-    height: 800px;
+    text-align: center;
     width: 100%;
-    border-radius: 20px;
+    margin-top: 40px;
 }
+
+.pro img{
+    width: 90%;
+    height: 20%;
+    border-radius: 20px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+
+
+.pro p{
+    text-align: start;
+    font-size: medium;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
 .pro img[type="logo"]{
+    padding-top: 40px;
     width: 100px;
     height: 100px;
 }
@@ -526,6 +567,10 @@ footer nav ul li a{
     align-items: center;
     justify-content: center;
     font-size: x-large;
+    width: 100%;
+}
+.promax h1{
+    font-size: xx-large;
 }
 .promax img{
     width: 100px;

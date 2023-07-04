@@ -100,7 +100,11 @@ h1{
     padding: 10px;
     
 }
-
+.hero p{
+    text-align: start;
+    font-size: x-large;
+    padding: 30px;
+}
 .box{
     display: flex;
     flex-direction: row;
@@ -545,7 +549,7 @@ footer nav ul li a{
 .pro p{
     text-align: start;
     font-size: x-large;
-    
+    padding: 30px;
 }
 
 .pro img[type="logo"]{

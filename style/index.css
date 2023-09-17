@@ -1,0 +1,315 @@
+body{
+    background-color: whitesmoke;
+}
+.main{
+    padding-top: 100px;
+
+}
+
+
+
+
+ 
+
+
+
+
+.hero{
+    margin: 10px;
+    font-family: 'Geologica', sans-serif;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+
+.hero img{
+    width: 90%;
+    height: 20%;
+    border-radius: 40px;
+    padding: 10px;
+    
+}
+.hero p{
+    text-align: start;
+    font-size: x-large;
+    padding: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    margin: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.pbox{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    margin: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+
+.box p{
+    font-size:large;
+    font-family: 'Geologica', sans-serif;
+    padding-top: 5px;
+}
+
+.pbox p{
+    font-size:large;
+    font-family: 'Geologica', sans-serif;
+    padding-top: 5px;
+}
+
+.box button{
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Geologica', sans-serif;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: auto;
+    font-size: medium;
+}
+.hero button{
+    width: 50%;
+    cursor: pointer;
+    font-family: 'Geologica', sans-serif;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    padding: 5px;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.hero button:hover{
+    background: linear-gradient(to bottom right, #00da49, #18d697);
+    color: white;
+}
+.pbox button{
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Geologica', sans-serif;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: auto;
+    font-size: medium;
+}
+.green:hover{
+    background-color: #e2f7f0;
+    color: white;
+}
+.orange:hover{
+    background-color: #f6e9d7;
+    color: white;
+}
+.violet:hover{
+    background-color: #f7e2f3;
+    color: white;
+}
+.blue:hover{
+    background-color: #e2e5f7;
+    color: white;
+}
+.green button{
+    background-color: #0a9c67;
+}
+
+.orange button{
+    background-color: orange;
+}
+
+.violet button{
+    background-color: rgb(161, 100, 161);
+}
+
+.blue button{
+    background-color: #293D73;
+}
+
+.box  div{
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    height: 300px;
+    width: 310px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px ;
+    text-align: center;
+}
+.pbox  div{
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    height: 400px;
+    cursor: pointer;
+    width: 300px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px ;
+    text-align: center;
+}
+
+
+.box img{
+    height: 100px;
+    width: 100px;
+}
+
+.pbox img{
+    height: 200px;
+    width: 200px;
+}
+.icon{
+    margin-right: 10px;
+    color: #000;
+}
+
+
+
+.largeplus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.largeplus button{
+    width: 50%;
+    cursor: pointer;
+    font-family: 'Geologica', sans-serif;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    padding: 5px;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.largeplus button:hover{
+background-color: #000;
+color: white;
+}
+
+
+.plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Geologica', sans-serif;
+    flex-direction: row;
+    border-radius: 50%;
+    border-color: #000;
+}
+.plus span{
+    color: #000;
+    font-size: xx-large;
+}
+
+
+
+
+q{
+padding: 10px;
+}
+
+.gradient-section {
+margin: 10px;
+margin-left: 20px;
+padding: 10px;
+margin-top: 30px;
+width: 950px;
+background-color: white;
+border-radius: 20px;
+text-align: center;
+font-family: Geologica ,sans-serif;
+font-style: bold;
+}
+
+.xcontainer {
+flex-wrap: wrap;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.search-form {
+display: flex;
+align-items: center;
+margin: 10px;
+}
+.gradient {
+background: white;
+padding: 20px;
+color: black;
+font-family: Geologica ,sans-serif;
+font-style: bold;
+border-radius: 20px;
+margin-right: 10px;
+width: 100%;
+}
+
+.search-form p {
+padding-right: 10px;
+}
+
+
+.search-form input[type="email"] {
+flex: 1;
+border-radius: 5px;
+padding: 10px;
+padding-left: 10px;
+font-family: "Geologica" ,sans-serif;
+font-style: bold;
+border: solid;
+
+}
+
+
+
+
+
+.circle-button {
+width: 40px;
+margin-left: 10px;
+height: 40px;
+border-radius: 50%;
+background: linear-gradient(to bottom right, #00da49, #18d697);
+border: none;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+
+}

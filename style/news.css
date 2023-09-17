@@ -1,0 +1,73 @@
+.main{
+    padding-top: 100px;
+
+}
+
+
+.hero{
+    margin: 10px;
+    font-family: 'Geologica', sans-serif;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.hero img{
+    width: 90%;
+    height: 20%;
+    border-radius: 40px;
+    padding: 10px;
+    
+}
+.hero p{
+    text-align: start;
+    font-size: x-large;
+    padding: 30px;
+}
+
+.hero button{
+    width: 50%;
+    cursor: pointer;
+    font-family: 'Geologica', sans-serif;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    padding: 5px;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.hero button:hover{
+    background: linear-gradient(to bottom right, #00da49, #18d697);
+    color: white;
+}
+
+.largeplus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.largeplus button{
+    width: 50%;
+    cursor: pointer;
+    font-family: 'Geologica', sans-serif;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    padding: 5px;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.largeplus button:hover{
+    background-color: #000;
+    color: white;
+}

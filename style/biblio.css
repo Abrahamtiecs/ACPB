@@ -1,0 +1,159 @@
+.main{
+    padding-top: 100px;
+
+}
+
+.zone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.xcontainerx {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+} 
+.search-form {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.finalplus{
+    font-family: 'Geologica', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: larger;
+}
+
+.finalplus p{
+    text-align: start;
+}
+
+.finalplus img{
+    width: 90%;
+    height: 20%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.finalplus button{
+    width: 50%;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-family: 'Geologica', sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    height: 50px;
+    padding: 5px;
+    font-size: medium;
+    margin-top: auto;
+    
+}
+
+.finalplus button[type="sold"]{
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Geologica', sans-serif;
+    border-radius: 10px;
+    border: solid;
+    border-color: #000;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    padding: 5px;
+    font-size: medium;
+    margin-top: auto;
+    
+}
+
+.finalplus button[type="noir"]{
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Geologica', sans-serif;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    padding: 5px;
+    font-size: medium;
+    margin-top: auto;
+    
+}
+.finalplus button[type="bleu"]{
+    background: linear-gradient(to bottom right, #0007da, hsl(311, 60%, 75%));
+}
+
+
+.finalplus button[type="vert"]{
+    background: linear-gradient(to bottom right, #0bda00, #12da16);
+}
+.finalplus button[type="orange"]{
+    background: linear-gradient(to bottom right, #da7b27, #f7a16f);
+}
+.finalplus button[type="violet"]{
+    background: linear-gradient(to bottom right, #e52eca, #3d3879);
+}
+
+.xcontainerx {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+} 
+.search-form {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.circle-button {
+    width: 40px;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #00da49, #18d697);
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.gradient-section {
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 950px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Geologica ,sans-serif;
+    font-style: bold;
+}
+
+.search-form input[type="email"] {
+    flex: 1;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 10px;
+    font-family: "Geologica" ,sans-serif;
+    font-style: bold;
+    border: solid;
+    
+}

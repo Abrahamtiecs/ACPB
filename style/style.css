@@ -1,11 +1,11 @@
-@import url('/style/index.css');
-@import url('/style/news.css');
-@import url('/style/carriere.css');
-@import url('/style/biblio.css');
-@import url('/style/shop.css');
-@import url('/style/articles.css');
-@import url('/style/school.css');
-@import url('/style/fest.css');
+@import 'index.css';
+@import 'news.css';
+@import 'carriere.css';
+@import 'biblio.css';
+@import 'shop.css';
+@import 'articles.css';
+@import 'school.css';
+@import 'fest.css';
 
 
 
